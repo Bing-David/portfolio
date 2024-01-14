@@ -133,13 +133,38 @@
     }
 
     .content__main-info p{
-        font-size: 1rem;
+        font-size: 0.5rem;
         padding: 1rem;
+        width: 90%;
     }
     .conteiner__main img{
         width: 8rem;
         height: 8rem;
     }
 
+
+    .content__main-info-li img{
+        width: 1.5rem;
+    }
+
 }
 
+@media (min-width: 4000px) {
+    *{
+        font-size: 2.5rem;
+    }
+
+    .card{
+        max-width: 1370px;
+        padding: 2rem;
+    }
+
+    .bts__about button svg{
+        height: 2rem;
+    }
+
+    .content__main-info-li img{
+        width: 3rem;
+    }
+    
+}
