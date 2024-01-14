@@ -16,7 +16,9 @@
     <title>Jr-Web</title>
 </head>
 <body>
-    
+    <div class="loading-screen">
+        <div class="loading-bar"></div>
+      </div>
 
     <!--Main Info-->
     <div class="box">
@@ -302,8 +304,8 @@
         </h4>
     </footer>
     <!--footer-last-info-->
-
         <script src="./src/index.js"></script>
-
-</body>
+        <style> .loading-screen{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#0e0d0d;display:flex;justify-content:center;align-items:center;z-index:9999}.loading-bar{border:16px solid #f15a24;border-top:16px solid rgb(255, 255, 255);border-radius:50%;width:120px;height:120px;animation:1s linear infinite spin}@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}} </style>
+        <script>window.addEventListener("load",function(){let e=document.querySelector(".loading-screen");e.style.display="none"});</script>
+    </body>
 </html>
