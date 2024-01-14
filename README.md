@@ -7,7 +7,7 @@ SVG,
 JavaScript,
 HTML,
 CSS,
-NODE.JS...
+
 
 ## Authors
 
