@@ -14,5 +14,3 @@ NODE.JS...
 - [@Ultimo_David](https://jeilercontacto.000webhostapp.com/)
 
 
-![Logo](https://jeilercontacto.000webhostapp.com/src/IMG/JR.png)
-
