@@ -1,13 +1,6 @@
 
 #Contacto web
 
-Tecnologías usadas para el diseño de la WEB
-
-SVG,
-JavaScript,
-HTML,
-CSS,
-
 
 ## Authors
 
