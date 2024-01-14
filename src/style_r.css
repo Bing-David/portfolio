@@ -1,0 +1,145 @@
+@media (max-width: 1366px) {
+
+    .content__main-info-li img{
+        width: 3.2rem;
+        margin-top: 2vw;
+        padding-bottom: 1.2rem;
+    }
+    
+    .about__info svg{
+        width: 15rem;
+    }
+
+    .content__about button{
+        width: 5rem;
+    }
+
+}
+
+
+
+@media (max-width: 750px) {
+    .xp-1-conteiner {
+        width: 70%;
+        padding: 2rem;
+        margin-bottom: 1rem;
+       
+    }
+    .exp-1-title{
+        font-size: 1rem;
+    }
+
+
+    .xp-1-conteiner h4, li{
+        padding: 0.5rem;
+        font-size: 1rem;
+
+    }
+
+
+    /*MAIN*/
+    .conteiner__main h1{
+        font-size: 3rem;
+    }
+
+    .content__main-info p{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .conteiner__main img{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .box{
+        flex-wrap: wrap;
+        transition: 0.5s;
+    }
+
+ 
+    
+
+    .box .content__main{
+        margin-bottom: 10vw;
+        width: 85%;
+    }
+
+   .about__info{
+    margin-bottom: 5vw;
+    
+}
+    .about__info svg{
+    padding: 0.7rem;
+        width: 93%;
+}
+   .about__info h2{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .bts__about button{
+        width: 48%;
+        margin-bottom: 0.5rem;
+        
+    }
+
+
+    .content__about{
+        margin-left: -1%;
+    }
+    .content__about button:hover{
+        color: #f15a24;
+        transition: 0.3s;
+      
+    }
+    /*MAIN*/
+
+
+
+    /*OTROS*/
+
+    .container-skills{
+        width: 85%;
+    }
+
+
+    .content__main-info-li img{
+        width: 2rem;
+    }
+    
+
+    .Experiencia-conteiner{
+        margin-top: 10rem;
+    }
+    
+    .footer_info h4{
+        font-weight: 900;
+    }
+    
+    /*OTROS*/
+
+
+
+}
+
+@media (max-width: 360px) {
+    .footer_info h4{
+        font-weight: 200;
+        font-size: 0.4rem;
+    }
+
+    .conteiner__main h1{
+        font-size: 2rem;
+    }
+
+    .content__main-info p{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .conteiner__main img{
+        width: 8rem;
+        height: 8rem;
+    }
+
+}
+
