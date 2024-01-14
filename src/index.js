@@ -22,6 +22,37 @@ element4.addEventListener("click", ()=>{
 
 });
 
+
+
+/*SCROLL*/
+    document.addEventListener('DOMContentLoaded', function () {
+        // Obtén tus botones por su id
+        const proyectosBtn = document.getElementById('proyectosBtn');
+        const experienciaBtn = document.getElementById('experienciaBtn');
+
+        // Función para hacer scroll a la sección especificada
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // Agrega eventos de clic a los botones
+        proyectosBtn.addEventListener('click', function () {
+            scrollToSection('py'); // El ID de la sección de proyectos
+        });
+
+        experienciaBtn.addEventListener('click', function () {
+            scrollToSection('EXP-C'); // El ID de la sección de experiencia
+        });
+    });
+/*SCROLL*/
+
+
+
+
+
 // // Función para mostrar el modal
 // function openModal() {
 //     document.getElementById('resolutionModal').style.display = 'block';
