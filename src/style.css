@@ -265,6 +265,12 @@ B{letter-spacing: 0.1VW;}
     animation-delay: 0.3s;
   }
 
+  .skill-per.python {
+    width: 30%;
+    animation-delay: 0.3s;
+  }
+
+
   @keyframes progress {
     0% {
       width: 0;
