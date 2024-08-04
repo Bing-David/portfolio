@@ -260,6 +260,10 @@ B{letter-spacing: 0.1VW;}
     animation-delay: 0.3s;
   }
   
+  .skill-per.figma {
+    width: 60%;
+    animation-delay: 0.3s;
+  }
 
   @keyframes progress {
     0% {
