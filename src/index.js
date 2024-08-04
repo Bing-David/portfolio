@@ -38,13 +38,12 @@ element4.addEventListener("click", ()=>{
             }
         }
 
-        // Agrega eventos de clic a los botones
         proyectosBtn.addEventListener('click', function () {
-            scrollToSection('py'); // El ID de la sección de proyectos
+            scrollToSection('py'); 
         });
 
         experienciaBtn.addEventListener('click', function () {
-            scrollToSection('EXP-C'); // El ID de la sección de experiencia
+            scrollToSection('EXP-C'); 
         });
     });
 /*SCROLL*/
