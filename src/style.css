@@ -245,6 +245,22 @@ B{letter-spacing: 0.1VW;}
     animation-delay: 0.3s;
   }
   
+  .skill-per.electronjs {
+    width: 40%;
+    animation-delay: 0.3s;
+  }
+  
+  .skill-per.illustrator {
+    width: 80%;
+    animation-delay: 0.3s;
+  }
+  
+  .skill-per.photoshop {
+    width: 80%;
+    animation-delay: 0.3s;
+  }
+  
+
   @keyframes progress {
     0% {
       width: 0;
